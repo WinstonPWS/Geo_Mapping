@@ -204,48 +204,6 @@
     <main>
       <div class="grid">
         <!-- Card 1 -->
-        <article class="card" aria-labelledby="p-wildfire">
-          <div class="card-visual" style="background:linear-gradient(90deg,#fff7cc,#ffd6cc);">
-            Wildfire Buildup Index
-          </div>
-          <div class="card-body">
-            <div class="meta">
-              <span class="badge">NetCDF</span>
-              <span class="badge">Source: climatedata.ca</span>
-            </div>
-            <h3 id="p-wildfire" class="project-title">
-              <a href="https://winstonpws.github.io/Geo_Mapping/SCSE_Wildfire_Map.html" target="_blank" rel="noopener">Wildfire Buildup Index</a>
-            </h3>
-            <p class="desc">Interactive map showing wildfire build-up potential derived from climate model NetCDF inputs. Includes time-slider and hotspots visualization for rapid exploratory analysis.</p>
-            <div class="card-actions">
-              <a class="btn btn-primary" href="https://winstonpws.github.io/Geo_Mapping/SCSE_Wildfire_Map.html" target="_blank" rel="noopener">Open map</a>
-              <!-- <a class="btn btn-ghost" href="https://github.com/winstonpws" target="_blank" rel="noopener">View code</a> -->
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 2 -->
-        <article class="card" aria-labelledby="p-fsa">
-          <div class="card-visual" style="background:linear-gradient(90deg,#e8f6ff,#e5fbe8);">
-            FSA Outline Map
-          </div>
-          <div class="card-body">
-            <div class="meta">
-              <span class="badge">Shapefile</span>
-              <span class="badge">Source: statcan.gc.ca</span>
-            </div>
-            <h3 id="p-fsa" class="project-title">
-              <a href="https://winstonpws.github.io/Geo_Mapping/FSA_Mapping.html" target="_blank" rel="noopener">FSA Outline Map</a>
-            </h3>
-            <p class="desc">Province- and postal-area outlines with interactive popups. Useful as a basemap for linking demographic or property datasets to geographic units.</p>
-            <div class="card-actions">
-              <a class="btn btn-primary" href="https://winstonpws.github.io/Geo_Mapping/FSA_Mapping.html" target="_blank" rel="noopener">Open map</a>
-              <!-- <a class="btn btn-ghost" href="https://github.com/winstonpws" target="_blank" rel="noopener">View code</a> -->
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 3 -->
         <article class="card" aria-labelledby="p-drought">
           <div class="card-visual" style="background:linear-gradient(90deg,#fff4e6,#ffeef0);">
             Drought Monitor (CDM)
@@ -259,9 +217,51 @@
               <!-- replace href with your actual drought map page -->
               <a href="https://winstonpws.github.io/Geo_Mapping/Drought_Monitor.html" target="_blank" rel="noopener">Drought Monitor</a>
             </h3>
-            <p class="desc">Monthly Canadian Drought Monitor polygons (CDM). This page assigns area-weighted severity to FSAs and visualizes results with an interactive Folium map and legend.</p>
+            <p class="desc">Assigns area-weighted drought severity from Canadian Drought Monitor (CDM) polygons to FSAs and visualizes the results with an interactive Folium map and legend.</p>
             <div class="card-actions">
-              <a class="btn btn-primary" href="https://winstonpws.github.io/Geo_Mapping/drought_FSA_map.html" target="_blank" rel="noopener">Open map</a>
+              <a class="btn btn-primary" href="https://winstonpws.github.io/Geo_Mapping/Drought_FSA_Mapping.html" target="_blank" rel="noopener">Open map</a>
+              <!-- <a class="btn btn-ghost" href="https://github.com/winstonpws" target="_blank" rel="noopener">View code</a> -->
+            </div>
+          </div>
+        </article>
+        
+        <!-- Card 2 -->
+        <article class="card" aria-labelledby="p-wildfire">
+          <div class="card-visual" style="background:linear-gradient(90deg,#fff7cc,#ffd6cc);">
+            Wildfire Buildup Index
+          </div>
+          <div class="card-body">
+            <div class="meta">
+              <span class="badge">NetCDF</span>
+              <span class="badge">Source: climatedata.ca</span>
+            </div>
+            <h3 id="p-wildfire" class="project-title">
+              <a href="https://winstonpws.github.io/Geo_Mapping/SCSE_Wildfire_Map.html" target="_blank" rel="noopener">Wildfire Buildup Index</a>
+            </h3>
+            <p class="desc">Map showing wildfire build-up potential derived from climate model NetCDF inputs. Same data source as OSFI 2024 Standardized Climate Scenario Exercise (SCSE).</p>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="https://winstonpws.github.io/Geo_Mapping/SCSE_Wildfire_Map.html" target="_blank" rel="noopener">Open map</a>
+              <!-- <a class="btn btn-ghost" href="https://github.com/winstonpws" target="_blank" rel="noopener">View code</a> -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card" aria-labelledby="p-fsa">
+          <div class="card-visual" style="background:linear-gradient(90deg,#e8f6ff,#e5fbe8);">
+            FSA Outline Map
+          </div>
+          <div class="card-body">
+            <div class="meta">
+              <span class="badge">Shapefile</span>
+              <span class="badge">Source: statcan.gc.ca</span>
+            </div>
+            <h3 id="p-fsa" class="project-title">
+              <a href="https://winstonpws.github.io/Geo_Mapping/FSA_Mapping.html" target="_blank" rel="noopener">FSA Outline Map</a>
+            </h3>
+            <p class="desc">Forward Sortation Area (FSA) with interactive popups. Useful as a basemap for linking demographic or property datasets to geographic units.</p>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="https://winstonpws.github.io/Geo_Mapping/FSA_Mapping.html" target="_blank" rel="noopener">Open map</a>
               <!-- <a class="btn btn-ghost" href="https://github.com/winstonpws" target="_blank" rel="noopener">View code</a> -->
             </div>
           </div>
@@ -276,4 +276,5 @@
   </div>
 </body>
 </html>
+
 
